@@ -52,7 +52,7 @@ class Navbar extends Component {
             <li><Link to="/news">News</Link></li>
             <li><Link to="/customer-service">Customer Service</Link></li>
             <li><AuthButtons /></li>
-            <li><button onClick={this.handleLogout}>Logout</button></li>
+            <li><button className="auth-button logout-button" onClick={this.handleLogout}>Logout</button></li>
           </ul>
         </nav>
       </div>
